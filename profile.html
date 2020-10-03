@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Profile </title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo|Lobster">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    
+<!-- start navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top"> 
+      <div class="container">   
+        <div class="navbar-header" visible-sm-block>
+          <button type="button" style="border:none;" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#errornav" aria-expanded="false">
+              <i class="fas fa-ellipsis-v fa-lg" style="color:#888;"></i>
+          </button>  
+          <a class="navbar-brand" href="index.html"><i class="fas fa-exclamation-triangle"></i> ERROR <span>CS</span></a>
+        </div>  
+        <div class="collapse navbar-collapse" id="errornav">            
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">HOME<span class="sr-only">(current)</span></a></li>
+                <li><a href="index.html#about-us">ABOUT US</a></li>
+                <li><a href="index.html#contact-us">CONTACT US</a></li>
+                <li><a href="website%20timeline.html">TIME LINE</a></li>
+                <li><a href="postsample.html">POST SAMPLE</a></li>
+                <li><a href="newuser.html">REGISTER</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> User Name <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="creatpost.html"> <i class="far fa-edit" style="margin-right:5px"></i> Add Post</a></li>
+                    <li><a href="addcat.html"> <i class="fab fa-buromobelexperte" style="margin-right:5px"></i> Add Category</a></li>
+                    <li class="active"><a href="profile.html"> <i class="far fa-user" style="margin-right:5px"></i> Profile</a></li>
+                    <li><a href="signup.html"> <i class="fas fa-plus" style="margin-right:5px"></i> Sign Up</a></li>
+                    <li role="separator" class="divider" style="background:#C9302C"></li>
+                    <li><a href="#"> <i class="fas fa-sign-out-alt" style="margin-right:5px"></i> LOG OUT</a></li>
+                </ul>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+<!-- end navbar -->    
+    
+    <section class="info">
+        <div class="container">
+            <div class="box text-center">
+                <img class="img-responsive" src="imgs/profile.png">
+                <h2> Ninja </h2>
+                <p class="lead text-center"> FRONT-END DEVELOPER </p>
+                
+                <ul class="list-unstyled">
+                    <li><a href="#" class="face"><i class="fab fa-facebook-f fa-3x"></i></a></li>
+                    <li><a href="#" class="google"><i class="fab fa-github fa-3x"></i></a></li>
+                    <li><a href="#" class="twitter"><i class="fab fa-twitter fa-3x"></i></a></li>
+                </ul>
+                
+                <a href="edit-profile.html" class="btn btn-danger">Edit Info</a>
+            </div>
+        </div>
+    </section>
+    
+<!-- Scripts -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript">
+        
+            $("html").niceScroll({
+                cursorcolor: '#222',
+                cursorborder: 'none',
+                cursorborderradius: '0',
+                zindex: '9999',
+            });
+        
+    </script>
+    </body>
+</html> 

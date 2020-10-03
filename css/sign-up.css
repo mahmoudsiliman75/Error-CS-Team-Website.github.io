@@ -1,0 +1,174 @@
+body
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    background: #ff3838;
+}
+
+body
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    background: #ff3838;
+}
+
+.sign-up-form
+{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    padding: 50px;
+    padding-right: 0;
+    margin-bottom: 70px;
+    width: 50%;
+    color: #fff;
+    background: #333;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 15px 70px #000;
+    -moz-box-shadow: 0 15px 70px #000;
+    -o-box-shadow: 0 15px 70px #000;
+    box-shadow: 0 15px 70px #000;
+}
+
+.sign-up-form h1
+{
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-left: -50px;
+}
+
+.sign-up-form .sign-up .form-group
+{
+    margin-left: 10px;
+}
+
+.sign-up-form .sign-up .input-group-lg > .sign-up-form .sign-up .form-control,
+.sign-up-form .sign-up .input-group-lg > .sign-up-form .sign-up .input-group-addon,
+.sign-up-form .sign-up .input-group-lg > .sign-up-form .sign-up .input-group-btn >
+.sign-up-form .sign-up .btn
+{
+    background-color: #c5c5c5;
+    border-color: #c5c5c5;
+}
+
+.sign-up-form .sign-up .input-group .form-control
+{
+    border-left: none;
+}
+
+.sign-up-form .sign-up .input-group-addon
+{
+    color: #ce5252;
+}
+
+.sign-up-form .sign-up .col-sm-1, .sign-up-form .sign-up .col-sm-2,
+.sign-up-form .sign-up .col-sm-3, .sign-up-form .sign-up .col-sm-4,
+.sign-up-form .sign-up .col-sm-5, .sign-up-form .sign-up .col-sm-6, 
+.sign-up-form .sign-up .col-sm-7, .sign-up-form .sign-up .col-sm-8,
+.sign-up-form .sign-up .col-sm-9, .sign-up-form .sign-up .col-sm-10,
+.sign-up-form .sign-up .col-sm-11,.sign-up-form .sign-up .col-sm-12
+{
+    float: none;
+}
+
+.sign-up-form .sign-up .radio input[type="radio"],
+.sign-up-form .sign-up .radio-inline input[type="radio"],
+.sign-up-form .sign-up .checkbox input[type="checkbox"],
+.sign-up-form .sign-up .checkbox-inline input[type="checkbox"]
+{
+    margin-top: 6px
+}
+
+.sign-up-form .sign-up p
+{
+    font-size: 16px;
+    margin-bottom: 15px;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.sign-up-form .sign-up p:hover
+{
+    color: #ce5252;  
+}
+
+.sign-up-form .sign-up a
+{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ce5252;
+    opacity: 0.7;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.sign-up-form .sign-up a:hover
+{
+    text-decoration: none;
+    color: #ce5252;
+    opacity: 1;
+}
+
+
+.sign-up-form .sign-up .btn-default
+{
+    margin-right: 15px;
+    margin-top: 15px;
+    width: 170px;
+    padding: 15px 70px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #ce5252;
+    border: none;
+    opacity: 0.6;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.sign-up-form .sign-up .btn-default:hover
+{
+    opacity: 1;
+    color: #fff;
+    background-color: #ce5252;
+}
+
+.sign-up-form .sign-up .back {
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

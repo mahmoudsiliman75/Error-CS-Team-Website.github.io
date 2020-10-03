@@ -1,0 +1,543 @@
+/* start mobile and tablet screen */
+
+@media (max-width: 768px)
+{
+    body {padding-top: 50px;}
+    
+    .about h1,
+    .contact h1,
+    .subscribe h1,
+    .sample .post-sample h2
+    {
+        font-size: 30px;
+    }
+    
+    .navbar-inverse .navbar-brand {line-height: 25px;}
+    
+    .nav > li > a
+    {
+        padding: 15px 10px;
+        text-align: center;
+    }
+    
+    .home {min-height: 200px}
+    
+    .home .type
+    {
+        font-size: 20px;
+        position: absolute;
+        top: 25%;
+        -webkit-transform: translate(-4% , -50%);
+        -moz-transform: translate(-4% , -50%);
+        -o-transform: translate(-4% , -50%);
+        transform: translate(-4% , -60%);
+    }
+    
+    .about .lead {font-size: 21px;}
+    
+    .about h2 {font-size: 25px;}
+    
+    .about ul li {font-size: 21px;}
+    
+    .members .carousel-inner .box 
+    {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 13px;
+    }
+    
+    .members .carousel-inner .box img {left: 8%;}
+    
+    .contact form {width: 75%; margin-left: 12%;}
+    
+    .contact input[type="submit"] {padding: 10px 123px;}
+    
+    .subscribe input[type="text"] {border-radius: 10px; width: 100%;}
+    
+    .subscribe button
+    {
+        margin-left: 0;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    
+    .subscribe h1 {color: #e74c3c;}
+    
+    .subscribe p {font-weight: 600;}
+    
+    .fab {font-size: 2em;}
+    
+    .time-line .media a h2 {font-size: 35px;}
+    
+    .time-line .media a p {font-size: 20px;}
+    
+    .time-line .media a span {font-size: 16px;}
+    
+    .sample .post-sample p {font-size: 20px; text-align: center;}
+    
+    .subscribe {background: rgba(0,0,0,0.2);}
+    
+    
+    /********** login form **********/
+    
+    .login
+    {
+        border-radius: 20px;
+        width: 80%;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        padding: 40px;
+    }
+    
+    .login h1
+    {
+        font-size: 19px;
+    }
+    
+    .login .input-group-lg > .login .form-control,
+    .login .input-group-lg > .login .input-group-lg > .login .input-group-btn >.btn
+    {
+        width: 100%;
+    }
+    
+    /********** forget password form **********/
+    .forget
+    {
+        border-radius: 20px;
+        width: 80%;
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        padding: 40px;
+    }
+    
+    .forget h1
+    {
+        font-size: 19px;
+    }
+    
+    .forget .input-group .form-control
+    {
+        margin-left: 15px;
+        width: 250px; 
+    }
+    
+    .forget .btn-danger 
+    {
+        width: 250px; 
+        text-align: center;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-left: 0
+    }
+    
+    /********** new user form **********/
+    .skewed .register
+    {
+        width: 90%;
+        left: 5%;
+    }
+    
+    .skewed .register .form-group
+    {
+        margin-left: 0;
+    }
+    
+    .input-group .form-control
+    {
+        width: 90%;
+    }
+    
+    .skewed .register h3,
+    .skewed .register textarea
+    {
+        margin-left: 15px;
+    }
+    
+    .skewed .register h3
+    {
+        width: 370px;
+    }
+
+    .skewed .register textarea
+    {
+        width: 370px;
+    }
+    
+    .skewed .register .btn-danger
+    {
+        margin-left: 0;
+    }
+    
+    /********** sign up form **********/
+    .sign-up-form
+    {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 80%;
+    }
+    
+    .sign-up-form .sign-up .form-group
+    {
+        margin-left: -20px;
+    }
+    
+    .sign-up-form .sign-up .btn-default
+    {
+        margin-right: 0;
+    }
+    
+    /********** creat post form **********/
+    .add-post .form-group
+    {
+        margin-left: 0;
+    }
+    
+    .add-post-form .add-post .cke_chrome
+    {
+        width: 100%;
+        margin-left: -10px;
+    }
+    
+    /********** profile **********/
+    .info .box
+    {
+        position: relative;
+        left: 5%;
+        margin-top: 40%;
+        width: 90%;
+    }
+
+    .info .box img
+    {
+        position: relative;
+        bottom: 145px;
+        left: 14%;
+    }
+    
+    .info .box .btn-danger
+    {
+        bottom: 5px;
+        padding: 5px 15px;
+    }
+    
+        
+    /********** edit profile **********/
+    .edit-profile
+    {
+        position: absolute;
+        left: 10%;
+        width: 80%;
+    }
+
+    .edit-profile-form .edit-profile .form-group
+    {
+        margin-left: 0;
+    }
+
+}
+
+
+@media (min-width: 560px) and (max-width: 768px)
+{
+    .members .carousel-inner .box img {left: 12%;}
+    
+    .members .carousel-inner .box 
+    {
+        margin-right: 25px;
+        margin-left: 25px;
+        padding: 30px;
+    }
+    
+    /********** profile **********/
+    .info .box
+    {
+        position: relative;
+        left: 10%;
+        margin-top: 24%;
+        width: 80%;
+    }
+
+    .info .box img
+    {
+        position: relative;
+        left: 25%;
+    }
+
+}
+    
+/* end mobile and tablet screen */
+
+
+
+
+
+
+/* start small screen */
+
+@media (min-width: 769px) and (max-width: 991px)
+{
+        body
+        {
+            padding-top: 50px;
+        }
+    
+         /********** navbar **********/
+    
+        .navbar .container
+        {
+            width: 850px
+        }
+    
+        .navbar-brand
+        {
+            font-size: 20px;
+            line-height: 40px;
+        }
+    
+        .nav > li > a
+        {
+            font-size: 13px;
+            padding: 23px 13px;
+        }
+        
+         /********** type **********/
+        .home .type
+        {
+            font-size: 40px;
+        }
+         /********** login form **********/
+    
+        .login
+        {
+            position: absolute;
+            top: 10%;
+            left: 15%;
+            border-radius: 20px;
+            width: 70%;
+            padding: 50px;
+        }
+    
+        .login h1
+        {
+            font-size: 27px;
+        }
+    
+        /********** forget password form **********/
+    
+        .forget h1
+        {
+            font-size: 27px;
+        }
+    
+        .forget .input-group .form-control
+        {
+            width: 400px; 
+        }
+    
+        /********** new user form **********/
+        .skewed .register h3
+        {
+            width: 400px;
+        }
+
+        .skewed .register textarea
+        {
+            width: 400px;
+        }
+    
+        /********** creat post form **********/
+        .add-post .form-group
+        {
+            margin-left: 0;
+        }
+    
+        .add-post-form .add-post .input-group .form-control
+        {
+            width: 98%
+        }
+
+        .add-post-form .add-post .cke_chrome
+        {
+            width: 130%;
+            margin-left: -10px;
+        }
+    
+        /********** profile **********/
+        .info .box
+        {
+            position: relative;
+            left: 10%;
+            margin-top: 25%;
+            width: 80%;
+        }
+
+        .info .box img
+        {
+            position: relative;
+            left: 30%;
+        }
+    
+        /********** edit profile **********/
+        .edit-profile
+        {
+            position: absolute;
+            top: 13%;
+            left: 10%;
+            width: 80%;
+        }
+
+        .edit-profile-form .edit-profile .form-group
+        {
+            margin-left: 30px;
+        }
+}
+
+/* end small screen */
+
+
+
+
+
+
+
+/* start medium screen */
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    .members .carousel-inner .box img {left: 20%;}
+    
+    /********** login form **********/
+    
+    .login
+    {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 80%;
+        padding: 50px;
+    }
+
+    .login h1
+    {
+        font-size: 30px;
+    }
+    
+    /********** forget password form **********/
+    
+    .forget
+    {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 80%;
+        padding: 50px;
+    }
+
+    .forget h1
+    {
+        font-size: 35px;
+    }
+    
+    .forget .input-group .form-control
+    {
+        width: 650px; 
+    }
+    
+    /********** new user form **********/
+    .skewed .register h3
+    {
+        width: 500px;
+    }
+
+    .skewed .register textarea
+    {
+        width: 500px;
+    }
+    
+    /********** creat post form **********/
+    .add-post-form .add-post .cke_chrome
+    {
+        width: 150%;
+        margin-left: -10px;
+    }
+    
+    /********** profile **********/
+    .info .box
+    {
+        position: relative;
+        left: 15%;
+        width: 70%;
+    }
+
+    .info .box img
+    {
+        position: relative;
+        left: 33%;
+    }
+}
+
+/* end medium screen */
+
+
+
+
+
+
+
+/* start large screen */
+
+@media (min-width: 1200px)
+{
+    .members .carousel-inner .box img {left: 18%;}
+    
+    /********** login form **********/
+    form .btn-default {width: 205px;}
+    
+    /********** profile **********/
+    .info .box
+    {
+        position: relative;
+        left: 25%;
+        margin-top: 15%;
+        width: 50%;
+    }
+
+    .info .box img
+    {
+        position: relative;
+        bottom: 145px;
+        left: 30%;
+    }
+}
+
+/* enb large screen */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,130 @@
+body
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    background: #333;
+    overflow: hidden;
+}
+
+.skewed
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80%;
+    width: 100%;
+    background: #ff3838;
+    -webkit-transform: skew(0deg, -10deg) translateY(-120px);
+    -moz-transform: skew(0deg, -10deg) translateY(-120px);
+    -o-transform: skew(0deg, -10deg) translateY(-120px);
+    transform: skew(0deg, -10deg) translateY(-120px);
+}
+
+.skewed h1
+{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.skewed h1 span
+{
+    color: #ce5252
+}
+.skewed .register
+{
+    overflow: hidden;
+    position: absolute;
+    top: 38%;
+    left: 20%;
+    width: 60%;
+    background: #fff;
+    border-radius: 20px;
+    -webkit-transform: skew(0deg, 10deg);
+    -moz-transform: skew(0deg, 10deg);
+    -o-transform: skew(0deg, 10deg);
+    transform: skew(0deg, 10deg);
+    -webkit-box-shadow: 0 0 50px #fff;
+    -moz-box-shadow: 0 0 50px #fff;
+    -o-box-shadow: 0 0 50px #fff;
+    box-shadow: 0 0 50px #fff;
+}
+
+
+.skewed .register .form-group
+{
+    margin-left: 50px;
+}
+
+
+.input-group-lg >  .form-control, 
+.input-group-lg >  .input-group-addon,
+.input-group-lg >  .input-group-btn > .btn
+{
+    border: 1px solid #ce4141;
+}
+
+.skewed .register .input-group-addon
+{
+    background: #fff;
+    color: #ce4141;
+    border-right: none;
+}
+
+
+
+.input-group .form-control
+{
+    border-left: none;
+}
+
+.skewed .register h3,
+.skewed .register textarea
+{
+    margin-left: 65px;
+}
+
+.skewed .register h3
+{
+    font-weight: 600;
+    width: 600px;
+}
+
+.skewed .register textarea
+{
+    border: 1px solid #ce4141;
+    height: 130px;
+    width: 600px;
+}
+
+.skewed .register .btn-danger
+{
+    margin-left: 35px;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.skewed .register .back {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

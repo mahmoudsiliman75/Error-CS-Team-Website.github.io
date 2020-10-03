@@ -1,0 +1,167 @@
+body
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    background: #ff3838;
+}
+
+.login
+{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    padding: 50px;
+    padding-right: 0;
+    width: 50%;
+    color: #fff;
+    background: #333;
+    border-radius: 20px;
+    border-top-right-radius: 45%;
+    -webkit-box-shadow: 0 20px 50px #000;
+    -moz-box-shadow: 0 20px 50px #000;
+    -o-box-shadow: 0 20px 50px #000;
+    box-shadow: 0 20px 50px #000;
+}
+
+.login-form h1
+{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.login-form h1 span
+{
+    color: #ce5252
+}
+
+.login-form .form-horizontal .control-label
+{
+    text-align: justify;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.login-form .login .input-group-lg > .login-form .login .form-control,
+.login-form .login .input-group-lg > .login-form .login .input-group-addon,
+.login-form .login .input-group-lg > .login-form .login .input-group-btn >
+.login-form .login .btn
+{
+    background-color: #c5c5c5;
+    border-color: #c5c5c5;
+}
+
+.login-form .login .input-group .form-control
+{
+    border-left: none;
+}
+
+.login-form .login .input-group-addon
+{
+    color: #ce5252;
+}
+
+.login-form .login .col-sm-1, .login-form .login .col-sm-2,
+.login-form .login .col-sm-3, .login-form .login .col-sm-4,
+.login-form .login .col-sm-5, .login-form .login .col-sm-6, 
+.login-form .login .col-sm-7, .login-form .login .col-sm-8,
+.login-form .login .col-sm-9, .login-form .login .col-sm-10,
+.login-form .login .col-sm-11,.login-form .login .col-sm-12
+{
+    float: none;
+}
+
+.login-form .login .radio input[type="radio"],
+.login-form .login .radio-inline input[type="radio"],
+.login-form .login .checkbox input[type="checkbox"],
+.login-form .login .checkbox-inline input[type="checkbox"]
+{
+    margin-top: 6px
+}
+
+.login-form .login p
+{
+    font-size: 16px;
+    margin-bottom: 15px;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.login-form .login p:hover
+{
+    color: #ce5252;  
+}
+
+.login-form .login a
+{
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ce5252;
+    opacity: 0.7;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.login-form .login a:hover
+{
+    text-decoration: none;
+    color: #ce5252;
+    opacity: 1;
+}
+
+
+.login-form .login .btn-default
+{
+    margin-right: 15px;
+    margin-top: 15px;
+    width: 170px;
+    padding: 15px 70px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #ce5252;
+    border: none;
+    opacity: 0.6;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.login-form .login .btn-default:hover
+{
+    opacity: 1;
+    color: #fff;
+    background-color: #ce5252;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
